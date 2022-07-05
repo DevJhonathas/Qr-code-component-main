@@ -12,7 +12,6 @@
     box-sizing: border-box;
     text-decoration: none;
     border: none; outline: 0;
-    background-color: var(--Blue);
 }
 
 html{
@@ -25,6 +24,7 @@ html{
 
 html, body{
     width: 100%; height: 100%;
+    background-color: var(--Blue);
 }
 
 .container{
@@ -39,28 +39,38 @@ html, body{
 
 .box{
     background-color: var(--White);
-    height: 500px; width: 300px;
+    height: 550px; width: 350px;
     border-radius: 10px;
-    margin-top: 70px; margin-bottom: 20px;
-
+    margin-top: 20vh; margin-bottom: 25vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     justify-items: center;
-    align-items: flex-start;
-    align-content: center;
     flex-wrap: wrap;
+    padding: 15px;
+ 
 }
 
+/* Definindo tamanho da imagem e posicões do paragrafo e titulo */
 .box > img{
-    height: 50%; width: 95%;
-    border-radius: 10px; margin: 15px;
+    height: 300px; width: 100%;
+    border-radius: 10px;
+}
+.box > .text h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.4vh; color: rgb(31, 29, 63);
+}
+.box > .text p{
+    padding: 11px;
+    text-align: center;
+    font-size: 1.8vh; color: rgb(108, 108, 108);
 }
 
 
 /* Já estava no codigo antes */
 .attribution { 
-    font-size: 11px;
+    font-size: 16px;
     text-align: center; 
 }
 .attribution a { 
@@ -71,26 +81,17 @@ html, body{
 
 
 /* ## Layout
-
 The designs were created to the following widths:
-
 - Mobile: 375px
 - Desktop: 1440px
-
 ## Colors
-
 - White: hsl(0, 0%, 100%)
 - Light gray: hsl(212, 45%, 89%)
 - Grayish blue: hsl(220, 15%, 55%)
 - Dark blue: hsl(218, 44%, 22%)
-
 ## Typography
-
 ### Body Copy
-
 - Font size (paragraph): 15px
-
 ### Font
-
 - Family: [Outfit](https://fonts.google.com/specimen/Outfit)
 - Weights: 400, 700 */
