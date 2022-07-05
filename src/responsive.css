@@ -1,0 +1,7 @@
+/* Medias para responsividade */
+@media (max-height: 1366px){
+    .box{
+        margin-top: 10vh;
+        margin-bottom: 2vh;
+    }
+}
