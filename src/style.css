@@ -59,12 +59,12 @@ html, body{
 .box > .text h1{
     text-align: center;
     font-weight: 600;
-    font-size: 2.4vh; color: hsl(218, 44%, 22%);
+    font-size: 2.6vh; color: hsl(218, 44%, 22%);
 }
 .box > .text p{
     padding: 1.1px;
     text-align: center;
-    font-size: 1.8vh; color: var(--Grayish-blue);
+    font-size: 2.0vh; color: var(--Grayish-blue);
 }
 
 /* Já estava no codigo antes */
