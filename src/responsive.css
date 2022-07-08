@@ -1,5 +1,5 @@
 /* Medias para responsividade ALTURA*/
-@media screen and (max-device-height: 530px) {
+@media screen and (max-height: 530px) {
     .box{
         height: 350px;
         margin-top: 10vh; margin-bottom: 5vh;
@@ -18,7 +18,7 @@
         font-size: 2.4vh;
     }
 }
-@media screen and (min-device-height: 530px) {
+@media screen and (min-height: 530px) {
     .box{
         height: 350px; width: 350px;
         margin-top: 10vh; margin-bottom: 5vh;
@@ -37,7 +37,7 @@
         font-size: 2.4vh;
     }
 }
-@media screen and (min-device-height: 560px) {
+@media screen and (min-height: 560px) {
     .box{
         height: 400px; width: 350px;
         margin-top: 10vh; margin-bottom: 15vh;
@@ -53,7 +53,7 @@
     }
 }
 
-@media screen and (min-device-height: 600px) {
+@media screen and (min-height: 600px) {
     .box{
         height: 420px; width: 350px;
         margin-top: 10vh; margin-bottom: 15vh;
@@ -68,7 +68,7 @@
         font-size: 2.0vh;
     }
 }
-@media screen and (min-device-height: 630px) {
+@media screen and (min-height: 630px) {
     .box{
         height: 450px; width: 350px;
         margin-top: 10vh; margin-bottom: 15vh;
@@ -83,13 +83,13 @@
         font-size: 2.0vh;
     }
 }
-@media screen and (min-device-height: 768px) {
+@media screen and (min-height: 768px) {
     .box{
         height: 450px; width: 350px;
         margin-top: 10vh; margin-bottom: 15vh;
     }
 }
-@media screen and (min-device-height: 992px) {
+@media screen and (min-height: 992px) {
     .box{
         height: 500px; width: 350px;
         margin-top: 20vh; margin-bottom: 20vh;
@@ -97,7 +97,7 @@
 }
 
 /* Medias para responsividade LARGURA*/
-@media screen and (max-device-width: 375px){
+@media screen and (max-width: 375px){
     .box{
         width: 250px;
     }
